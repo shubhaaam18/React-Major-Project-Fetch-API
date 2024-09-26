@@ -59,7 +59,7 @@ const updateTodo = async (id, updatedTitle, completed) => {
         )
       );
     } else {
-      // This is a server todo, so send the PUT request
+      // This is a server todo, so sending the PUT request
       const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
         method: 'PUT',
         body: JSON.stringify({
