@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import TodoList from './components/Todolist';
+import TodoList from './components/TodoList';
 import './App.css';
-import AddTodo from './components/Addtodo';
+import AddTodo from './components/AddTodo';
 
 
 const App = () => {
